@@ -1,0 +1,367 @@
+body {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.71429;
+    font-weight: 500 !important;
+    letter-spacing: .05em;
+    color: #151515;
+    background-color: #ffffff;
+}
+
+
+.top-bar{
+  position: fixed;
+  background-color: white;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link{
+ padding-right: 20px;
+ padding-left: 20px;
+ color: black;
+} 
+
+
+
+.top-bar  .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+  border-bottom: 2px solid #756aee;
+  color: #756aee;
+}
+
+.carousel-caption h2{
+
+}
+
+
+
+
+.bluebtn:hover{
+  background-color: black;
+  color: white;
+  border:black;
+}
+
+.filters .filter-list li:hover, #all{
+  color: #756aee;
+}
+
+
+.footer{
+  background-color: #1b1929;
+  color: white
+}
+
+
+.footer-social-list{
+  display: inline-flex;
+}
+
+.footer-box{
+  padding: 70px 60px 40px;
+}
+
+.footer-box h3{
+  color: #605e6a;
+}
+
+.contact-class div{
+  border-top: 1px solid #333240;
+  padding:10px 5px;
+}
+
+.footer-social-list{
+   border-top: 1px solid #333240;
+  padding:10px 0px;
+}
+
+.form-control{
+  background-color: #282736 !important;
+  color: #ffffff !important;
+  border:none !important;
+}
+
+.footer-social-list li{
+  padding:0px 10px;
+}
+
+.footer-social-list li i{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.cont-title{
+  text-transform: capitalize;
+}
+
+
+.contdetail a{
+  text-decoration: none;
+  color: white;
+}
+
+.offers {
+  border-top:  1px solid #333240;
+}
+
+.offers li {
+ padding: 16px 40px 14px 0;
+ border-bottom: 1px solid #333240;
+
+}
+
+.offers a{
+  text-decoration: none !important;
+   color: white;
+}
+
+.heading-4{
+  font-size: 30px;
+
+}
+
+.carousel-caption {
+    bottom:16rem !important;
+}
+
+.button{
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        min-width: 200px;
+        padding: 17px 33px 15px;
+        font-size: 14px;
+        line-height: 1.34;
+        border: 2px solid;
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        text-align: center;
+        cursor: pointer;
+        vertical-align: middle;
+        text-decoration: none;
+}
+
+.bluebtn{
+    color: #ffffff;
+    background-color: #756aee;
+    border-color: #756aee;
+} 
+
+.article-box .button{
+    margin-top: 8px;
+}
+
+.section-icon{
+    font-size: 47px;
+}
+
+
+h3{
+margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #151515;
+    text-transform: capitalize;
+    letter-spacing: .024em;
+    word-spacing: 0.05em;
+    font-size: 32px !important;
+}
+
+.article-box{
+        text-align: center;
+        max-width: 370px;
+        min-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 55px 15px 20px;
+        background: #ffffff;
+        box-shadow: 0 0 13px -4px #a38d8d78;
+        transition: all .3s ease;
+}
+
+.article-box-2{
+    text-align: center;
+    max-width: 370px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 15px 35px;
+    background: #ffffff;
+    box-shadow: 0 0 13px -4px #a38d8d78;
+    transition: all .3s ease;
+}
+
+.section-title{
+    line-height: 1.04;
+    font-size: 14px;
+}
+
+.section-hr{ 
+    position: relative;
+    max-width: 126px;
+    width: 100px;
+    height: 2px;
+    margin: 20px auto 22px;
+    background: #d7d7d7;
+}
+
+
+.quote{
+    position: relative;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background-image: url(./img/quote.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.filter-list{
+   
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #9b9b9b;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+  
+
+@media (min-width: 992px){
+.section-first , .latestproject {
+    padding-top: 100px;
+}
+
+.latestproject h2{
+    font-size: 42px;
+}
+
+.filter-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter-list li{
+    padding: 0px 50px;
+    border-left: 1px solid #d7d7d7;
+    
+}
+.filter-list #all{
+    border-left: none;
+}
+
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 420px;
+    height: 350px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  
+  
+  .flip-box-inner {
+    position: relative;
+    width: 420px;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+ 
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  
+  .flip-box-back {
+    color: black ;
+    padding: 20px;
+    transform: rotateY(180deg);
+    border: 20px solid #f7f7f7;
+  }
+
+  .flip-box-back i{
+    font-size: 20px;
+    color: black;
+  }
+
+  .flip-header{
+    display: flex;
+    padding: 10px;
+  }
+
+  .flip-header h5 a{
+    margin-left: 10px;
+    text-decoration: none !important;
+    color: #756aee !important;
+  }
+
+  .clients img{
+    border: 1px solid #9b9b9b; 
+  }
+
+  .team{
+    position:relative;
+  }
+
+  .team-caption{
+    bottom: 2%;
+    padding: 15px 6% 15px 18%;
+  }
+
+  .team .team-caption{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+   
+  }
+
+  .nav-tab{ 
+  border-bottom: 3px solid #e1e1e1;
+  }
+
+  .nav-tab a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #9b9b9b;
+  }
+
+  .button-default-outline{
+    border: 2px solid black;
+    color:black;
+  }
+
